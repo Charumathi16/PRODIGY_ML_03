@@ -63,7 +63,8 @@ accuracy = accuracy_score(y_pred, y_test)
 
 # Print the accuracy of the model 
 print(f"The model is {accuracy*100}% accurate")
-The model is 59.0% accurateprint(classification_report(y_test, y_pred, target_names=['cat', 'dog']))
+The model is 59.0% 
+accurateprint(classification_report(y_test, y_pred, target_names=['cat', 'dog']))
 Output:
 
               precision    recall  f1-score   support
